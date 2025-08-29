@@ -5,10 +5,10 @@ import path from 'path';
 const videoData = {
     "10036": {
         "redirect_url": "https://otieu.com/5/1234567",
-        "video_path": "https://osmana.vercel.app/videos/10036.mp4",
+        "video_path": "https://finally-eta-seven.vercel.app/videos/10036.mp4",
         "title": "Example Video 10036",
         "description": "This is a description for video 10036.",
-        "thumbnail": "https://osmana.vercel.app/videos/10036.jpg"
+        "thumbnail": "https://finally-eta-seven.vercel.app/videos/10036.jpg"
     }
 };
 
