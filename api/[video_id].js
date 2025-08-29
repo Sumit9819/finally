@@ -4,10 +4,17 @@ import path from 'path';
 const videoData = {
     "10035": {
         "redirect_url": "https://otieu.com/4/9786651",
-        "video_path": "https://osmana.vercel.app/videos/10035.mp4",
+        "video_path": "https://finally-eta-seven.vercel.app/videos/10035.mp4",
         "title": "Backshot 10035",
         "description": "Get the 10035 backshot.",
-        "thumbnail": "https://osmana.vercel.app/videos/10035.jpg", // New field for the thumbnail URL
+        "thumbnail": "https://finally-eta-seven.vercel.app/videos/10035.jpg", // New field for the thumbnail URL
+    },
+    "10036": {
+        "redirect_url": "https://otieu.com/4/9786651",
+        "video_path": "https://finally-eta-seven.vercel.app/videos/10036.mp4",
+        "title": "Backshot 10036",
+        "description": "Get the 10036 backshot.",
+        "thumbnail": "https://finally-eta-seven.vercel.app/videos/10036.jpg",
     },
 };
 
