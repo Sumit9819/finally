@@ -2,10 +2,10 @@
 const videoData = {
     "10036": {
         "redirect_url": "https://otieu.com/5/1234567",
-        "video_path": "https://finally-eta-seven.vercel.app/videos/10036.mp4",
+        "video_path": "https://finally-eta-seven.vercel.app/public/videos/10036.mp4",
         "title": "Love this shot",
         "description": "This is a description for video 10036.",
-        "thumbnail": "https://finally-eta-seven.vercel.app/videos/10036.jpg"
+        "thumbnail": "https://finally-eta-seven.vercel.app/public/videos/10036.jpg"
     }
 };
 
