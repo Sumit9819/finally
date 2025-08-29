@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/player/:videoId",
+      "destination": "/html/player.html"
+    },
+    {
+      "source": "/:videoId",
+      "destination": "/api/:videoId"
+    }
+  ]
+}
