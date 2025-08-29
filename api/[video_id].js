@@ -4,24 +4,24 @@ import path from 'path';
 const videoData = {
     "10035": {
         "redirect_url": "https://otieu.com/4/9786651",
-        "video_path": "https://osmana.vercel.app/videos/10035.mp4",
+        "video_path": "https://finally-eta-seven.vercel.app/videos/10035.mp4",
         "title": "Backshot 10035",
         "description": "Get the 10035 backshot.",
-        "thumbnail": "https://osmana.vercel.app/videos/10035.jpg",
+        "thumbnail": "https://finally-eta-seven.vercel.app/videos/10035.jpg",
     },
     "10036": {
         "redirect_url": "https://otieu.com/5/1234567",
-        "video_path": "https://osmana.vercel.app/videos/10036.mp4",
+        "video_path": "https://finally-eta-seven.vercel.app/videos/10036.mp4",
         "title": "Example Video 10036",
         "description": "This is a description for video 10036.",
-        "thumbnail": "https://osmana.vercel.app/videos/10036.jpg",
+        "thumbnail": "https://finally-eta-seven.vercel.app/videos/10036.jpg",
     },
     "10037": {
         "redirect_url": "https://otieu.com/6/7654321",
-        "video_path": "https://osmana.vercel.app/videos/10037.mp4",
+        "video_path": "https://finally-eta-seven.vercel.app/videos/10037.mp4",
         "title": "Next Video 10037",
         "description": "A new video just for you.",
-        "thumbnail": "https://osmana.vercel.app/videos/10037.jpg",
+        "thumbnail": "https://finally-eta-seven.vercel.app/videos/10037.jpg",
     }
 };
 
