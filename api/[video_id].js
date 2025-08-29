@@ -7,12 +7,12 @@ const videoData = {
         "video_path": "https://osmana.vercel.app/videos/10035.mp4",
         "title": "Backshot 10035",
         "description": "Get the 10035 backshot.",
+        "thumbnail": "https://osmana.vercel.app/videos/10035.jpg", // New field for the thumbnail URL
     },
 };
 
 export default async function handler(req, res) {
     const { video_id } = req.query;
-
     if (!video_id || !videoData[video_id]) {
         return res.status(404).send("Video not found.");
     }
@@ -20,7 +20,7 @@ export default async function handler(req, res) {
     const data = videoData[video_id];
     const playerUrl = `https://${req.headers.host}/player/${video_id}`;
     const redirectUrl = data.redirect_url;
-
+    
     const htmlContent = `
         <!DOCTYPE html>
         <html>
@@ -35,6 +35,7 @@ export default async function handler(req, res) {
             <meta name="twitter:player" content="${playerUrl}">
             <meta name="twitter:player:width" content="1280">
             <meta name="twitter:player:height" content="720">
+            <meta name="twitter:image" content="${data.thumbnail}">
         </head>
         <body>
             <p>If you are not redirected, please <a href="${redirectUrl}">click here</a>.</p>
