@@ -38,7 +38,7 @@ export default async function handler(req, res) {
             <meta http-equiv="refresh" content="0; url=${redirectUrl}">
             <title>${data.title}</title>
             <meta name="twitter:card" content="player">
-            <meta name="twitter:site" content="@your_real_username">  <!-- Replace with your actual Twitter @username -->
+            <meta name="twitter:site" content="@SharmaSumi35464">  <!-- Replace with your actual Twitter @username -->
             <meta name="twitter:title" content="${data.title}">
             <meta name="twitter:description" content="${data.description}">
             <meta name="twitter:player" content="${playerUrl}">
