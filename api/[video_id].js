@@ -9,6 +9,12 @@ const videoData = {
         "description": "Get the 10035 backshot.",
         "thumbnail": "https://finally-eta-seven.vercel.app/images/thumbnail.jpg"  // Replace if using a different image
     },
+    "10036": {
+        "redirect_url": "https://otieu.com/4/9786651",
+        "video_path": "https://finally-eta-seven.vercel.app/videos/10036.mp4",
+        "title": "Backshot 10035",
+        "description": "Get the 10035 backshot.",
+        "thumbnail": "https://finally-eta-seven.vercel.app/images/10036.jpg"
     // Add more video entries here, e.g., "10036": { ... }
 };
 
